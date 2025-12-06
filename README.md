@@ -12,8 +12,7 @@ The dashboard provides visibility into core SaaS revenue metrics, including:
 These insights support Finance, RevOps, Product, and Customer Success teams by quantifying revenue risks, identifying adoption issues, and showing where expansion opportunities occur.
 
 ## Dashboard Output
-(Insert Screenshot Here)
-A clean Tableau dashboard displaying MRR trends, churn, NRR, and cohorts.
+![alt text](https://github.com/geoffreyrwamakuba-rgb/Revenue-Churn-Analysis-for-a-SaaS-Fintech/blob/main/Dashboard%20Image.png?raw=true)
 
 Business Problem
 Expense management platforms face several challenges:
