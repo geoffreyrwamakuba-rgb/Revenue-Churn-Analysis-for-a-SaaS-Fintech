@@ -15,12 +15,12 @@ These insights support Finance, RevOps, Product, and Customer Success teams by q
 ## Dashboard
 ![alt text](https://github.com/geoffreyrwamakuba-rgb/Revenue-Churn-Analysis-for-a-SaaS-Fintech/blob/main/Dashboard%20Image.png?raw=true)
 
-Business Problem
+## Business Problem
 Expense management platforms face several challenges:
 - Understanding Expansion & Contraction Drivers
 - Predicting Churn Before Revenue Loss
 - Forecasting Revenue Accurately
-________________________________________
+  
 ## Methodology
 ### Data Source
 Python was used to generate two synthetic datasets:
@@ -28,7 +28,7 @@ Python was used to generate two synthetic datasets:
 -	Subscriptions (monthly MRR per account)
 The model simulates 3 years of realistic behaviour based on patterns observed in real expense platforms (e.g., Ramp, Brex):
 
-### Assumptions Built Into the Data Generation include:
+#### Assumptions Built Into the Data Generation include:
 -	Monthly Seat Changes 
 -	Churn Probability
 -	Expansion Behaviour
@@ -37,8 +37,8 @@ The model simulates 3 years of realistic behaviour based on patterns observed in
 
 ### SQL Analysis
 Core SQL transformations include:
--	MRR Movements - Using LAG() to compare monthly MRR per account:
- - New MRR — first-ever month of revenue
+- MRR Movements - Using LAG() to compare monthly MRR per account:
+ -- New MRR — first-ever month of revenue
  - xpansion — seats or plans increased
  - Contraction — reductions in seats or usage
  - Churn — lost revenue after churn date
