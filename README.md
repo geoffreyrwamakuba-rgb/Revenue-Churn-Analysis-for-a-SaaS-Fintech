@@ -11,7 +11,6 @@ The dashboard provides visibility into core SaaS revenue metrics, including:
 - Quarterly cohort retention
 
 These insights support Finance, RevOps, Product, and Customer Success teams by quantifying revenue risks, identifying adoption issues, and showing where expansion opportunities occur.
-
 ## Dashboard
 ![alt text](https://github.com/geoffreyrwamakuba-rgb/Revenue-Churn-Analysis-for-a-SaaS-Fintech/blob/main/Dashboard%20Image.png?raw=true)
 
@@ -54,7 +53,6 @@ The model simulates 3 years of realistic behaviour based on patterns observed in
 - SaaS metric interpretation (NRR, churn, expansion, cohorts)
 
 ## Key Insights & Recommendations
-
 ### Insight 1 – MRR Growth Is Driven More by Expansion Than New Sales
 - Across most months, Expansion MRR > New MRR.
 - Existing customers are increasing seats or upgrading plans.
