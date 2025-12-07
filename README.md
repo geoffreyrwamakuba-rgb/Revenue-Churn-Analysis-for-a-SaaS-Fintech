@@ -1,7 +1,7 @@
 # Revenue & Churn Insights for an Expense Management SaaS
 
 ## Executive Summary
-This project uses SQL, Python, and Tableau to model, analyse, and visualise subscription revenue for an Expense Management SaaS platform—similar to Ramp, Brex, Concur, or Zoho Expense.
+This project uses SQL, Python, and Tableau to model, analyse, and visualise subscription revenue for an Expense Management SaaS platform.
 
 The dashboard provides visibility into core SaaS revenue metrics, including:
 - MRR trends & cumulative revenue
