@@ -31,8 +31,7 @@ The model simulates 3 years of realistic behaviour based on patterns observed in
 #### Assumptions Built Into the Data Generation include:
 -	Churn Probability
 -	Expansion Behaviour
--	Contraction Events
--	Plan upgrades
+-	Contraction Events & Plan upgrades
 
 ### SQL Analysis
 **Generated SQL queries to calculate:**
