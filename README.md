@@ -4,9 +4,7 @@
 This project uses SQL, Python, and Tableau to model, analyse, and visualise subscription revenue for an Expense Management SaaS platform.
 
 The dashboard provides visibility into core SaaS revenue metrics, including:
-- MRR trends & cumulative revenue
-- MRR movement (New, Expansion, Contraction, Churn)
-- Customer churn & revenue leakage
+- MRR trends & movement drivers (New, Expansion, Contraction, Churn)
 - Net Revenue Retention (NRR)
 - Quarterly cohort retention
 
@@ -53,16 +51,13 @@ The model simulates 3 years of realistic behaviour based on patterns observed in
 ### Insight 1 – MRR Growth Is Driven More by Expansion Than New Sales
 - Across most months, Expansion MRR > New MRR.
 - Existing customers are increasing seats or upgrading plans.
-- The product is sticky for customers who stay 3+ months.
 - Customer Success and product experience are strong expansion drivers.
 ### Recommendation – Double down on expansion motions
 - Identify features correlated with expansion (e.g., corporate cards, reimbursement workflows (Uber & Deliveroo)).
 - Implement “adoption nudges” for companies with <60% seat activation.
-
 ### Insight 2 – Significant Drop in Retention after the first year
 - Strong onboarding but weak customer loyalty
 - Competitors may be pulling customers away
-- There is a lack of customer tracking
 ### Recommendation – Differentiate products and track customers 
 - Expand offering (audit automation or AI receipt extraction)
 - Improve UX — expense tools with poor UX churn the fastest
