@@ -35,15 +35,12 @@ The model simulates 3 years of realistic behaviour based on patterns observed in
 ### SQL Analysis
 **Generated SQL queries to calculate:**
 - MRR Movements - Using LAG() to compare monthly MRR per account:
-  - New MRR — first-ever month of revenue
-  - Expansion — seats or plans increased
-  - Contraction — reductions in seats or usage
-  - Churn — lost revenue after churn date
+  - New, Expansion, Contraction & Churn MRR
 - Quarterly Cohort Table - Cohorts grouped by signup quarter with:
-  - retained flags
-  - quarter-by-quarter activity
+  - Retained flags
+  - Quarter-by-quarter activity
 - Net Revenue Retention (NRR)
-- Churn Rate - Customer churn rate based on previous-month active accounts.
+- Churn Rate
 - Expansion MRR %
 
 ## Skills Demonstrated
